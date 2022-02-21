@@ -1,7 +1,6 @@
-let passwordLength = 8;
 
 function copyPasswordToClipboard(that){
-    var element = document.getElementById(that.id)
+    let element = document.getElementById(that.id)
     navigator.clipboard.writeText(element.textContent)
 
     alert("Copied: " + element.textContent);
@@ -35,11 +34,12 @@ function showTextHideDots(){
 
 // Approach 2: Using string as character set.
 function generateRandomPassword(){
+    const passwordLength = 8;
     const charSet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()"
     
-    var result = ""
+    let result = ""
     while(result.length <= passwordLength){
-        var randomIndex = Math.floor(Math.random() * charSet.length);
+        let randomIndex = Math.floor(Math.random() * charSet.length);
         result+= charSet[randomIndex];
     }
     return result;

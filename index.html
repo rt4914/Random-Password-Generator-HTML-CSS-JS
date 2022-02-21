@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css" >
+    </head>
+    
+    <body>
+        <div id="outer">
+            <div id="inner">
+                <h1 id="generate-a-text">Generate a</h1>
+                <h1 id="random-password-text">random password</h1>
+                <p id="supporting-text">Never use an insecure password again.</p>
+
+                <div class="generate-password-button" onclick="generatePasswords()">
+                    <img src="icons/lightening.png">
+                    <button>Generate Passwords</button>
+                </div>
+    
+                <div class="separator"></div>
+
+                <div id="password-table">
+                    <div class="passwords-row">
+                        <div class="password-div" id="first-password-div">
+                            <img class="dot" src="icons/dots.png"/>
+                            <p class="password-text" id="first-password" onclick="copyPasswordToClipboard(this)"></p>
+                        </div>
+                        <div class="password-div" id="second-password-div">
+                            <img class="dot" src="icons/dots.png"/>
+                            <p class="password-text" id="second-password" onclick="copyPasswordToClipboard(this)"></p>
+                        </div>
+                    </div>
+                    <div class="passwords-row">
+                        <div class="password-div" id="third-password-div">
+                            <img class="dot" src="icons/dots.png"/>
+                            <p class="password-text" id="third-password" onclick="copyPasswordToClipboard(this)"></p>
+                        </div>
+                        <div class="password-div" id="fourth-password-div">
+                            <img class="dot" src="icons/dots.png"/>
+                            <p class="password-text" id="fourth-password" onclick="copyPasswordToClipboard(this)"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+        <footer class="footer">
+            <p id="footer-text">Created by <a href="https://github.com/rt4914">Rajat Talesra</a></p>
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>

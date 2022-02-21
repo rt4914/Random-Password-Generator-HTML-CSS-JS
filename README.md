@@ -10,3 +10,8 @@ This project is part of learning HTML, CSS and JS from [Scrimba](https://scrimba
 - Display password options
 - Stretch: abitlity to set the password length
 - Stretch: 1-click copy password to the clipboard
+
+## Results
+
+<img width="800" src="https://user-images.githubusercontent.com/9396084/154942970-7747d4a7-12e6-4714-9e11-2bbf09865882.png">
+<img width="800" src="https://user-images.githubusercontent.com/9396084/154943000-75186972-38f3-49ea-9374-54cd8be856c4.png">
